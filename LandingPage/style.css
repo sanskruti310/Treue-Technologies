@@ -1,0 +1,362 @@
+*{
+    /* background-image: url("mae-mu-Emhz3miT6mo-unsplash.jpg");
+    background-size: cover;
+    background-repeat: no-repeat; */
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+.bagimg{
+    background-size: cover;
+    background-repeat: no-repeat;
+    opacity: 1;
+    width: 100%;
+    height: 100vh;
+}
+
+.navbar{
+    display: flex;
+    /* background-color: bisque; */
+    align-items: center;
+    font-family: 'Poppins', sans-serif;
+    position: absolute;
+    top: 0;
+    width: 100%;
+}
+
+.sticky {
+  position: fixed;
+  background-color: #837964;
+  font-size: bold;
+  transition-delay: 2s;
+  top: 0;
+  width: 100%;
+  z-index: 1000;
+}
+
+
+.logo{
+    background-image: url("Brown Beige Aesthetic Cake Logo.png");
+    background-size: cover ;
+    height: 134px;
+    width: 10%; 
+}
+
+a{
+    margin-left: 80px;
+    background-image: none;
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+    font-size: large;
+}
+
+a:hover{
+    animation: zoom 0.3s;
+    animation-fill-mode: forwards;
+    color: white;
+    text-decoration: none;
+}
+
+@keyframes zoom {
+    from{font-size: large;}
+    to{font-size: xx-large;}
+}
+
+.line{
+    position: absolute;
+    top: 40%;
+    left: 14%;
+    background-image: none;
+    color: white;
+}
+
+.wel{
+    font-family:'Montserrat', sans-serif;
+    font-size: 20px;
+    text-align: center;
+    align-items: center;
+    background: none;
+}
+
+.main{
+    font-family: 'Pacifico', cursive;
+    font-size: xx-large;
+    font-weight: bold;
+    font-family: 0;
+    text-align: center;
+    background: none;
+    font-size: 50px;
+}
+
+.about {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  /* background-color: rgb(221, 177, 122); */
+  padding: 20px;
+  height: 500px;
+}
+
+.para {
+  flex: 1;
+  padding: 20px;
+}
+
+.para p {
+  font-family: 'Raleway', sans-serif;
+  font-size: 16px;
+  line-height: 1.8;
+  margin: 0;
+}
+
+.first{
+    font-family: 'Pacifico', cursive !important;
+}
+
+.paraimage{
+  width: 300px;
+  height: 400px; 
+  overflow: hidden;
+}
+
+.paraimg {
+    flex: 1;
+    width: 300px;
+    height: 400px; 
+    background-image: url('/Components/nathan-dumlao-YUzSjKG9QmU-unsplash.jpg');
+    background-size: cover;
+    background-position: center;
+    margin: 20px;
+    padding: 5px;
+  }
+ 
+  .products{
+    display: flex;
+    margin: 5px;
+    border: 2px solid white;
+    align-items: center;
+    overflow-x: auto;
+    padding: 20px;
+    background-color: #dac292;
+    height: 330px;
+  }
+  
+  .btn-primary{
+    background-color: white;
+    color: black;
+    border: 1px solid transparent;
+    margin-top: 27px;
+  }
+
+  .btn-primary:hover{
+    background-color: black;
+    color: white;
+    border: none;
+  }
+
+  .para1 {
+    flex: 1;
+    padding: 20px;
+  }
+  
+  .para1 p {
+    font-size: 18px;
+    margin: 0;
+  }
+  
+  .diff p{
+    font-family: 'Pacifico', cursive ;
+    font-size: 50px;
+  }
+
+  .box {
+    width: 200px;
+    margin-right: 10px;
+    overflow: hidden;
+  }
+  
+  .box-img {
+    height: 250px;
+    width: 200px;
+    background-size: cover;
+    background-position: center;
+    height: 275px;
+    margin: 0 auto;
+  }
+  
+  .box-img:hover{
+    transform: scale(1.2);
+    transition: 1s;
+    cursor: pointer;
+  }
+
+
+  .numbers {
+    display: flex;
+    justify-content: space-around;
+    padding: 20px;
+    height: 320px;
+    background-color: white;
+  }
+
+  .awards,
+  .partners,
+  .clients,
+  .branch {
+    display: flex;
+    flex-direction: column;
+    margin: 53px 121px;
+    text-align: center;
+    font-family: 'Victor Mono', monospace;
+    font-size: 80px;
+  }
+
+  .sec{
+    display: flex;
+    align-items: center;
+    font-size: 70px;
+  }
+
+  .numbers p {
+    font-weight: bold;
+    color: #333;
+    font-size: 18px;
+  }
+
+  
+  .team {
+    display: flex;
+    justify-content: space-around;
+    padding: 20px;
+    height: 350px;
+    background-color:#dac292;
+  }
+
+  .mem1 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    max-width: 300px;
+  }
+
+  .team-img img {
+    width: 230px;
+    height: 230px;
+    border-radius: 10%;
+    margin-bottom: 10px;
+    object-fit: cover;
+  }
+
+  .name p {
+    font-weight: bold;
+    color: #333;
+    font-size: 18px;
+  }
+
+
+  .contact-container {
+    display: flex;
+    justify-content: space-evenly;
+    width: 100rem;
+    margin: 10px;
+    background-color: white;
+    padding: 20px;
+  }
+
+  .contact-img{
+    background-image: url("/Components/Soft\ Orange\ and\ Brown\ Minimalist\ Homemade\ Bakery\ Shop\ Products\ Sale\ Instagram\ Post.png");
+    background-size: cover;
+    width: 400px;
+    height: 400px;
+    margin: 30px;
+    padding: 100px;
+}
+
+
+  .contact-form input[type="text"],
+  .contact-form textarea {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 10px;
+    border: 1px solid #ccc;
+  }
+
+  .contact-form button {
+    background-color: black;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    cursor: pointer;
+  }
+
+  .contact-form button:hover {
+    background-color: #dac292;
+    color: white;
+  }
+
+
+  .reviews {
+    display: flex;
+    justify-content: space-around;
+    padding: 20px;
+    height: 600px;
+    /* background-color: #f4f4f4; */
+    background-image: url("/Components/review-image.jpg");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+  }
+
+
+  .people1,
+  .people2,
+  .people3 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    padding: 35px;
+    margin: 35px 10px 25px 20px;
+    border: 1px solid transparent;
+    color: black;
+    background-color: white;
+    border-radius: 90px;
+    box-shadow: 5px 5px #888888;
+  }
+
+  .people-img img {
+    /* width: 150px;
+    height: 150px; */
+    border-radius: 50%;
+    margin-bottom: 10px;
+    margin-top: 15px;
+    object-fit: cover;
+  }
+
+  img {
+    vertical-align: middle;
+    border-style: none;
+    height: 200px;
+    width: 200px;
+}
+
+  .react p {
+    font-style: italic;
+    color: #555;
+    font-size: 16px;
+    line-height: 1.5;
+    padding-top: 45px;
+  }
+
+  .copyright{
+    background-color: #837964;
+    align-items: center;
+    font-family: 'Raleway', sans-serif;
+    padding-top: 5px;
+    height: 40px;
+    color: white;
+    text-align: center;
+  }

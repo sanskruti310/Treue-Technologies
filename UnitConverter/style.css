@@ -1,0 +1,82 @@
+/* Reset some default browser styles */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Body styles */
+body {
+    font-family: Arial, sans-serif;
+    background-color:rgb(230, 230, 230);
+    background-image: url("charlesdeluvio-Z5ViTNhtPRs-unsplash.jpg");
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 40vh;
+}
+
+/* Container styles */
+.container {
+    width: 100%;
+    max-width: 800px;
+    padding: 20px;
+    background-color: #fff;
+    border-radius: 10px;
+    box-shadow: 0px 2px 6px rgba(0, 0, 0, 0.1);
+    text-align: center;
+}
+
+/* Heading styles */
+h1 {
+    font-size: 24px;
+    margin-bottom: 20px;
+}
+
+/* Input and select styles */
+input[type="number"],
+select {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    background-color: #f9f9f9;
+    font-size: 16px;
+}
+
+/* Unit dropdown container */
+.unit {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.toUn{
+    margin-left: 10px;
+    background-color: #9F8170;
+    color: white;
+}
+
+.fromUn{
+    background-color: #9F8170;
+    color: white;
+}
+
+/* Result paragraph styles */
+#result {
+    font-size: 18px;
+    font-weight: bold;
+    margin-top: 10px;
+}
+
+/* Responsive styles */
+@media screen and (max-width: 480px) {
+    .container {
+        max-width: 100%;
+        border-radius: 0;
+    }
+}
